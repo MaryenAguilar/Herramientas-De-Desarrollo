@@ -145,4 +145,18 @@ Se implementó en **MySQL**, con tablas principales como:
 ### 🛍️ Lista de Productos
 ---
 ### 🛒 Carrito de Compras
+![Evidencia mkdir](./screenshots/gitCommit.jpeg)
+
+### 🏠 Página Principal
+
+---
+
+![Página principal](./screenshots/home.png)
+
+### 🛍️ Lista de Productos
+
+---
+
+### 🛒 Carrito de Compras
+
 ---
