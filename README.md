@@ -155,11 +155,11 @@ Explicar conflicto
 ![Evidencia Conflict3](./screenshots/Conflict3.jpeg)
 
 ### Historial de puntos de control: 
-
-### Historial de cabeceras: 
 ![Evidencia PuntosDeControl](./screenshots/PuntosDeControl.jpeg)
-### 🖼️ Capturas de Pantalla
+### Historial de cabeceras: 
 ![Evidencia Cabeceras](./screenshots/Cabeceras.jpeg)
+### 🖼️ Capturas de Pantalla
+
 ### 🏠 Página Principal
 ---
 ![Página principal](./screenshots/home.png)
