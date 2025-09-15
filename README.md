@@ -138,25 +138,25 @@ Se implementó en **MySQL**, con tablas principales como:
 
 ![Evidencia Add](./screenshots/gitAdd.jpeg)
 
-### 🏠 Página Principal
+
+
+### 🏠 Pantalla Principal
+![Index](./screenshots/paginaprincipal.png)
 ---
-![Página principal](./screenshots/home.png)
+
+### Pagina Login
+![Login](./screenshots/paginalogin.png)
+---
 
 ### 🛍️ Lista de Productos
----
-### 🛒 Carrito de Compras
-![Evidencia mkdir](./screenshots/gitCommit.jpeg)
-
-### 🏠 Página Principal
-
+![Productos](./screenshots/paginaproductos.png)
 ---
 
-![Página principal](./screenshots/home.png)
-
-### 🛍️ Lista de Productos
-
+### Página de Nosotros
+![Nosotros](./screenshots/paginaabout.png)
 ---
 
-### 🛒 Carrito de Compras
-
+### Página de Reclamos/Términos y condiciones
+![Reclamos](./screenshots/paginareclamos.png)
+![TYC](./screenshots/paginatyc.png)
 ---
