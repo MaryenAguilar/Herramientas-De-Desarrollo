@@ -27,7 +27,7 @@ Este proyecto consiste en el desarrollo de una **plataforma de comercio electró
 ### Backend (Spring Boot)  
 ```bash
 # Clonar repositorio
-git clone https://github.com/nayy123/JoyeriaMarly-App.git
+git clone https://github.com/MaryenAguilar/Herramientas-De-Desarrollo.git
 
 # Entrar al proyecto backend
 cd backend
@@ -39,7 +39,7 @@ cd backend
 ### Frontend (React + Vite)
 ```bash
 # Entrar al proyecto frontend
-cd Joyeria_Marly_Frontend
+cd Herramientas-De-Desarrollo
 
 # Instalar dependencias
 npm install
@@ -56,7 +56,7 @@ npm run dev
 ```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/joyeriaBD
 spring.datasource.username=root
-spring.datasource.password=tu_password
+spring.datasource.password=root
 spring.jpa.hibernate.ddl-auto=update
 ```
 
@@ -108,38 +108,58 @@ Se implementó en **MySQL**, con tablas principales como:
 ---
 
 ## 🔄 Flujo de Trabajo en Git
-- Estructura de ramas: feature/, fix/
-- Comandos en Git:
+### Estructura de ramas: 
+Rama feature: 
+Se usa cuando necesitas desarrollar una nueva funcionalidad para el proyecto.\
+Rama fix: Se usa cuando detectas un bug o error en el código existente y necesitas solucionarlo.
+### Comandos en Git:
+- Se usó el comando add para seleccionar los cambios realizados y mandarlos a Stage, para posteriormente realizar un commit. También, podemos modificar los commits realizados o visualizar todo el listado de commits previos. Finalmente, usamos status para mostrar el estado del repositorio: archivos modificados, en Stage y sin seguimiento.
   ```bash
-  git commit -m "feat: agregar funcionalidad para eliminar producto del carrito"
+  git add .
+  git commit -m "Mensaje"
+  git commit --amend -m "Mensaje"
+  git log --oneline
+  git status
+![Evidencia Add](./screenshots/gitAdd.jpeg)
+![Evidencia Commit](./screenshots/gitCommit.jpeg)
+- Se implementó touch/mkdir para crear los archivos que contengan el LICENSE, .gitignore, README y la carpeta de screenshots. 
+  ```bash
   touch .gitignore
   touch LICENSE
-  git add .
-  git switch
-  git status
-  git checkout -b "Rama"
-  git commit --ammend -m "Mensaje"
-  git log --oneline
-  git reflog
+  touch README.MD
+  mkdir "NombreCarpeta"
+![Evidencia touch](./screenshots/Touch.jpeg)
+![Evidencia mkdir](./screenshots/MkDir.jpeg)
+- Se implementó git push y git pull para sincronizar el repositorio local con el repositorio remoto, permitiendo subir los cambios realizados localmente (push) y obtener las actualizaciones realizadas por otros colaboradores (pull). Esto garantiza que el equipo trabaje siempre con la versión más reciente del código y evita conflictos durante el desarrollo colaborativo. 
+  ```bash
+  git push origin "Rama"
+  git pull origin "Rama"
+![Evidencia gitPush](./screenshots/gitPush.jpeg)
+![Evidencia gitPull](./screenshots/gitPull.jpeg)
+- En Git, una rama (branch) es una línea de desarrollo independiente dentro de un repositorio. Usando el comando branch se pueden crear ramas nuevas. Además, Con el comando switch se puede cambiar de una rama a otra fácilmente. También, utilizamos --no-merged para visualizar las ramas no unidas al main. Por ultimo, checkout -b seria otra opción para crear y cambiar a la rama nueva, evitando usar dos lineas como branch y switch. 
+  ```bash
   git branch "Rama"
-  git merge "Rama"
-  git push
-  git pull
+  git switch "Rama"
   git branch --no-merged
   git branch -d "Rama"
-  mkdir "NombreCarpeta"
----
+  git checkout -b "Rama"
+![Evidencia RamaFuncionalidad](./screenshots/RamaFuncionalidad.jpeg)
+- En Git, reflog guarda un registro de todos los movimientos en el repositorio, incluso los que no aparecen en el historial de commits, y sirve para recuperar cambios perdidos. Por otro lado, git merge se usa para combinar el trabajo de una rama con otra, uniendo sus cambios en una sola línea de desarrollo
+  ```bash
+  git reflog
+  git merge "Rama"
+![Evidencia Conflict1](./screenshots/Conflict1.jpeg)
+### Resolución de problemas: 
+Explicar conflicto 
+![Evidencia Conflict2](./screenshots/Conflict2.jpeg)
+![Evidencia Conflict3](./screenshots/Conflict3.jpeg)
 
+### Historial de puntos de control: 
+
+### Historial de cabeceras: 
+![Evidencia PuntosDeControl](./screenshots/PuntosDeControl.jpeg)
 ### 🖼️ Capturas de Pantalla
-
-![Evidencia touch](./screenshots/Touch.jpeg)
-
-![Evidencia mkdir](./screenshots/MkDir.jpeg)
-
-![Evidencia Add](./screenshots/gitAdd.jpeg)
-
-![Evidencia Commit](./screenshots/gitCommit.jpeg)
-
+![Evidencia Cabeceras](./screenshots/Cabeceras.jpeg)
 ### 🏠 Página Principal
 ---
 ![Página principal](./screenshots/home.png)
