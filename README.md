@@ -1,30 +1,11 @@
 # 🛍️ Joyería Online - E-commerce  
 
-Este proyecto consiste en el desarrollo de una **plataforma de comercio electrónico de joyería**, con funcionalidades de catálogo, carrito de compras, gestión de pedidos y administración de usuarios.  
+ **Joyeria Marly** - El proyecto de desarrollo de una aplicación web para Marly Handmade Jewelry nace como respuesta a la necesidad de modernizar y optimizar los procesos internos y externos de la empresa. Esta iniciativa busca no solo mejorar la gestión de ventas y el control administrativo, sino también elevar la calidad de la atención al cliente, brindando una experiencia más ágil, accesible y personalizada.
 
----
-## 🚀 Contexto del Proyecto
- **Joyeria Marly** - El desarrollo de una aplicación web para Marly Handmade Jewelry surgio por la necesidad de modernizar y optimizar los procesos de venta, gestión y atención al cliente, respondiendo a las tendencias actuales del comercio electrónico y a las demandas de un mercado cada vez más digitalizado.
-### Roles
-- **Usuario**  
-  - Registrar un usuario nuevo
-  - Ver productos disponibles
-  - Agregar/quitar productos del carrito
-  - Visualizar el total de compra
-  - Realizar una compra
-  - Descargar la boleta de compra
-  - Realizar un reclamo.
-  - Visualizar los términos y condiciones
-- **Administrador**  
-  - Eliminar productos 
-  - Editar productos
-  - Agregar productos
-  - Eliminar clientes
-  - Editar clientes
-  - Editar estado del reclamo
-  - Visualizar listado de clientes
-  - Visualizar listado de productos
-  - Visualizar listado de reclamos
+En un entorno en el que el comercio electrónico ha adquirido un rol protagónico, resulta indispensable que los negocios se adapten a las nuevas dinámicas del mercado digital. La implementación de esta plataforma representa una estrategia clave para competir en un mercado cada vez más globalizado, dinámico y exigente, donde los consumidores valoran la rapidez, eficiencia y facilidad de acceso a productos y servicios.
+
+De esta manera, la aplicación web no solo se convierte en una herramienta tecnológica, sino en un motor de transformación digital que permitirá a Joyería Marly fortalecer su presencia en línea, ampliar su alcance comercial y consolidar relaciones más sólidas con sus clientes actuales y potenciales.
+
 ### Requerimientos funcionales
  - El aplicativo web debe permitir al usuario poder registrarse y logearse
  - El aplicativo web debe permitir al usuario visualizar el catalogo de productos 
@@ -60,11 +41,6 @@ Este proyecto consiste en el desarrollo de una **plataforma de comercio electró
 ### Frontend  
 - **Vite + React** – Framework moderno para el desarrollo de la interfaz de usuario.  
 - **CSS/Tailwind** – Estilos y diseño responsivo.  
-
-### Despliegue  
-- **AWS EC2** – Servidor de aplicación.  
-- **AWS RDS** – Base de datos en la nube.  
-- **AWS S3** – Almacenamiento de imágenes de productos.  
 
 ---
 
@@ -118,12 +94,14 @@ spring.jpa.hibernate.ddl-auto=update
 ## 👥 Roles del sistema  
 
 ### Cliente  
-- Registrarse e iniciar sesión.  
-- Visualizar catálogo de productos.  
-- Agregar productos al carrito.  
-- Ver y editar su información personal.  
-- Realizar un reclamo
+- Registrar un usuario nuevo
+- Ver productos disponibles
+- Agregar/quitar productos del carrito
+- Visualizar el total de compra
 - Realizar una compra
+- Descargar la boleta de compra
+- Realizar un reclamo.
+- Visualizar los términos y condiciones
 
 ### Administrador  
 - Gestionar clientes (visualizar, editar, eliminar, buscar por DNI).  
