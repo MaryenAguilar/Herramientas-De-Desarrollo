@@ -173,12 +173,25 @@ En Git, la cabecera o HEAD es un puntero especial que indica en qué commit est�
 
 ![Evidencia Cabeceras](./screenshots/Cabeceras.jpeg)
 ### 🖼️ Capturas de Pantalla
-
-### 🏠 Página Principal
 ---
-![Página principal](./screenshots/home.png)
+
+### 🏠 Pantalla Principal
+![Index](./screenshots/paginaprincipal.png)
+---
+
+### Pagina Login
+![Login](./screenshots/paginalogin.png)
+---
 
 ### 🛍️ Lista de Productos
+![Productos](./screenshots/paginaproductos.png)
 ---
-### 🛒 Carrito de Compras
+
+### Página de Nosotros
+![Nosotros](./screenshots/paginaabout.png)
+---
+
+### Página de Reclamos/Términos y condiciones
+![Reclamos](./screenshots/paginareclamos.png)
+![TYC](./screenshots/paginatyc.png)
 ---
