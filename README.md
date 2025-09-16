@@ -3,6 +3,52 @@
 Este proyecto consiste en el desarrollo de una **plataforma de comercio electrónico de joyería**, con funcionalidades de catálogo, carrito de compras, gestión de pedidos y administración de usuarios.  
 
 ---
+## 🚀 Contexto del Proyecto
+ **Joyeria Marly** - El desarrollo de una aplicación web para Marly Handmade Jewelry surgio por la necesidad de modernizar y optimizar los procesos de venta, gestión y atención al cliente, respondiendo a las tendencias actuales del comercio electrónico y a las demandas de un mercado cada vez más digitalizado.
+### Roles
+- **Usuario**  
+  - Registrar un usuario nuevo
+  - Ver productos disponibles
+  - Agregar/quitar productos del carrito
+  - Visualizar el total de compra
+  - Realizar una compra
+  - Descargar la boleta de compra
+  - Realizar un reclamo.
+  - Visualizar los términos y condiciones
+- **Administrador**  
+  - Eliminar productos 
+  - Editar productos
+  - Agregar productos
+  - Eliminar clientes
+  - Editar clientes
+  - Editar estado del reclamo
+  - Visualizar listado de clientes
+  - Visualizar listado de productos
+  - Visualizar listado de reclamos
+### Requerimientos funcionales
+ - El aplicativo web debe permitir al usuario poder registrarse y logearse
+ - El aplicativo web debe permitir al usuario visualizar el catalogo de productos 
+ - El aplicativo web debe permitir al usuario realizar una compra
+ - El aplicativo web debe permitir al usuario descargar la boleta de su compra
+ - El aplicativo web debe permitir al usuario visualizar los términos y condiciones
+ - El aplicativo web debe permitir al usuario realizar un reclamo
+ - El aplicativo web debe permitir al usuario tener acceso al carrito de compras
+ - El aplicativo web debe permitir al administrador eliminar productos 
+ - El aplicativo web debe permitir al administrador editar productos
+ - El aplicativo web debe permitir al administrador agregar productos
+ - El aplicativo web debe permitir al administrador eliminar clientes
+ - El aplicativo web debe permitir al administrador editar clientes
+ - El aplicativo web debe permitir al administrador editar estado del reclamo
+ - El aplicativo web debe permitir al administrador Visualizar listado de clientes
+ - El aplicativo web debe permitir al administrador Visualizar listado de productos
+ - El aplicativo web debe permitir al administrador Visualizar listado de reclamos
+ ### Requerimientos no funcionales
+ - Usabilidad: La plataforma debe ser intuitiva y fácil de usar incluso para clientes no familiarizados con compras online.
+ - Compatibilidad: Diseño responsive, debe adaptarse a computadoras, tabletas y móviles.
+ - Seguridad: Protección de datos personales, cifrado de contraseñas y seguridad en transacciones.
+ - Rendimiento: Buen rendimiento, carga rápida de páginas, especialmente en catálogo y carrito.
+ - Escalabilidad: Posibilidad de integrar en el futuro pasarelas de pago, envío internacional o tracking de pedidos.
+---
 
 ## 🚀 Tecnologías utilizadas  
 
