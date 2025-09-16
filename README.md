@@ -137,6 +137,21 @@ Rama feature:
 Se usa cuando necesitas desarrollar una nueva funcionalidad para el proyecto.\
 Rama fix: Se usa cuando detectas un bug o error en el código existente y necesitas solucionarlo.
 ### Comandos en Git:
+- Con `git init` se inicia un nuevo repositorio, luego con `git clone <url-del-repositorio>` se copia un proyecto existente en la máquina local, y finalmente con `git config user.name "Tu Nombre"` y `git config user.email "tu_email@example.com"` se define la identidad del programador que quedará registrada en los commits del proyecto.
+  ```bash
+  git init
+  git clone "Link del proyecto"
+  git config --global user.name "Nombre"
+  git config --global user.email "Correo"
+![Evidencia Add](./screenshots/GitClone.jpeg)
+- Se implementó touch/mkdir para crear los archivos que contengan el LICENSE, .gitignore, README y la carpeta de screenshots. 
+  ```bash
+  touch .gitignore
+  touch LICENSE
+  touch README.MD
+  mkdir "NombreCarpeta"
+![Evidencia touch](./screenshots/Touch.jpeg)
+![Evidencia mkdir](./screenshots/MkDir.jpeg)
 - Se usó el comando add para seleccionar los cambios realizados y mandarlos a Stage, para posteriormente realizar un commit. También, podemos modificar los commits realizados o visualizar todo el listado de commits previos. Finalmente, usamos status para mostrar el estado del repositorio: archivos modificados, en Stage y sin seguimiento.
   ```bash
   git add .
@@ -146,14 +161,6 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   git status
 ![Evidencia Add](./screenshots/gitAdd.jpeg)
 ![Evidencia Commit](./screenshots/gitCommit.jpeg)
-- Se implementó touch/mkdir para crear los archivos que contengan el LICENSE, .gitignore, README y la carpeta de screenshots. 
-  ```bash
-  touch .gitignore
-  touch LICENSE
-  touch README.MD
-  mkdir "NombreCarpeta"
-![Evidencia touch](./screenshots/Touch.jpeg)
-![Evidencia mkdir](./screenshots/MkDir.jpeg)
 - Se implementó git push y git pull para sincronizar el repositorio local con el repositorio remoto, permitiendo subir los cambios realizados localmente (push) y obtener las actualizaciones realizadas por otros colaboradores (pull). Esto garantiza que el equipo trabaje siempre con la versión más reciente del código y evita conflictos durante el desarrollo colaborativo. 
   ```bash
   git push origin "Rama"
