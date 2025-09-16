@@ -157,7 +157,10 @@ Al intentar unir ambas ramas con git merge, Git detectó que no podía decidir a
 Solución:
 1. Se revisaron manualmente las diferencias en el archivo marcado por Git.
 2. Se eligieron y combinaron las partes correctas de cada versión (repositorio, carpetas y credenciales).
-3. Finalmente, se guardó el archivo corregido, se usó: "git add README.md" y "git commit" para confirmar la resolución.
+3. Finalmente, se guardó el archivo corregido, se usó:
+  git add README.md
+  git commit
+para confirmar la resolución.
 De esta forma, el repositorio quedó actualizado y sin conflictos, manteniendo una sola versión consolidada del README.md.
 ![Evidencia Conflict2](./screenshots/Conflict2.jpeg)
 ![Evidencia Conflict3](./screenshots/Conflict3.jpeg)
@@ -175,18 +178,4 @@ De esta forma, el repositorio quedó actualizado y sin conflictos, manteniendo u
 ### 🛍️ Lista de Productos
 ---
 ### 🛒 Carrito de Compras
-![Evidencia mkdir](./screenshots/gitCommit.jpeg)
-
-### 🏠 Página Principal
-
----
-
-![Página principal](./screenshots/home.png)
-
-### 🛍️ Lista de Productos
-
----
-
-### 🛒 Carrito de Compras
-
 ---
