@@ -149,6 +149,16 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   git reflog
   git merge "Rama"
 ![Evidencia Conflict1](./screenshots/Conflict1.jpeg)
+### Pull Request/Merge Request:
+Un Pull Request es una solicitud que haces en plataformas como GitHub o GitLab para pedir que los cambios de tu rama se integren en otra (normalmente en main o develop).
+Un Merge Request es lo mismo que un Pull Request, pero con el nombre usado en GitLab. Utilizamos Pull Request para pedir un merge de los cambios realizados en una rama hacia el Main, todos los colaboradores pueden verificar y confirmar el Merge.
+![Evidencia PullRequest](./screenshots/Request1.jpeg)
+
+![Evidencia PullRequest](./screenshots/Request2.jpeg)
+
+![Evidencia PullRequest](./screenshots/Request3.jpeg)
+
+![Evidencia PullRequest](./screenshots/Request4.jpeg)
 ### Resolución de problemas: 
 Durante el desarrollo, surgió un conflicto de merge porque dos ramas diferentes habían modificado el archivo README.md en las mismas secciones.
 - En una rama, se habían agregado instrucciones con la ruta del repositorio MaryenAguilar/Herramientas-De-Desarrollo.
