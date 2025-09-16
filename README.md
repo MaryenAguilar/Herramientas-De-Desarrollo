@@ -166,8 +166,11 @@ De esta forma, el repositorio quedó actualizado y sin conflictos, manteniendo u
 ![Evidencia Conflict3](./screenshots/Conflict3.jpeg)
 
 ### Historial de puntos de control: 
+En Git, los puntos de control o checkpoints son todos los commits realizados hasta el momento.
 ![Evidencia PuntosDeControl](./screenshots/PuntosDeControl.jpeg)
-### Historial de cabeceras: 
+### Historial de HEAD:
+En Git, la cabecera o HEAD es un puntero especial que indica en qué commit estás trabajando actualmente.
+
 ![Evidencia Cabeceras](./screenshots/Cabeceras.jpeg)
 ### 🖼️ Capturas de Pantalla
 
