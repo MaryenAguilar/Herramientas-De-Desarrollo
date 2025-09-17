@@ -144,7 +144,7 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   git config --global user.name "Nombre"
   git config --global user.email "Correo"
 <p align="center">
-  <img./screenshots/GitClone.jpeg)" alt="Descripción"/>
+  <img src="./screenshots/GitClone.jpeg)" alt="Descripción"/>
 </p>
 - Se implementó touch/mkdir para crear los archivos que contengan el LICENSE, .gitignore, README y la carpeta de screenshots. 
   ```bash
@@ -153,8 +153,8 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   touch README.MD
   mkdir "NombreCarpeta"
 <p align="center">
-  <img s./screenshots/Touch.jpeg)" alt="Descripción"/>
-  <img s./screenshots/MkDir.jpeg)" alt="Descripción"/>
+  <img src="./screenshots/Touch.jpeg)" alt="Descripción"/>
+  <img src="./screenshots/MkDir.jpeg)" alt="Descripción"/>
 </p>
 - Se usó el comando add para seleccionar los cambios realizados y mandarlos a Stage, para posteriormente realizar un commit. También, podemos modificar los commits realizados o visualizar todo el listado de commits previos. Finalmente, usamos status para mostrar el estado del repositorio: archivos modificados, en Stage y sin seguimiento.
   ```bash
