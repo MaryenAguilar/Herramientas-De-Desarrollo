@@ -164,8 +164,8 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   git log --oneline
   git status
 <p align="center">
-  <img./screenshots/gitAdd.jpeg)" alt="Descripción"/>
-  <img sr./screenshots/gitCommit.jpeg)" alt="Descripción"/>
+  <img src="./screenshots/gitAdd.jpeg)" alt="Descripción"/>
+  <img src="./screenshots/gitCommit.jpeg)" alt="Descripción"/>
 </p>
 - Se implementó git push y git pull para sincronizar el repositorio local con el repositorio remoto, permitiendo subir los cambios realizados localmente (push) y obtener las actualizaciones realizadas por otros colaboradores (pull). Esto garantiza que el equipo trabaje siempre con la versión más reciente del código y evita conflictos durante el desarrollo colaborativo. 
   ```bash
