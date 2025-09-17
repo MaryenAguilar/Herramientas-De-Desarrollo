@@ -144,7 +144,7 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   git config --global user.name "Nombre"
   git config --global user.email "Correo"
 <p align="center">
-  <img src="./screenshots/GitClone.jpeg)" alt="Descripción"/>
+  <img src="./screenshots/GitClone.jpeg" alt="Descripción"/>
 </p>
 - Se implementó touch/mkdir para crear los archivos que contengan el LICENSE, .gitignore, README y la carpeta de screenshots. 
   ```bash
@@ -153,8 +153,8 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   touch README.MD
   mkdir "NombreCarpeta"
 <p align="center">
-  <img src="./screenshots/Touch.jpeg)" alt="Descripción"/>
-  <img src="./screenshots/MkDir.jpeg)" alt="Descripción"/>
+  <img src="./screenshots/Touch.jpeg" alt="Descripción"/>
+  <img src="./screenshots/MkDir.jpeg" alt="Descripción"/>
 </p>
 - Se usó el comando add para seleccionar los cambios realizados y mandarlos a Stage, para posteriormente realizar un commit. También, podemos modificar los commits realizados o visualizar todo el listado de commits previos. Finalmente, usamos status para mostrar el estado del repositorio: archivos modificados, en Stage y sin seguimiento.
   ```bash
@@ -164,8 +164,8 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   git log --oneline
   git status
 <p align="center">
-  <img src="./screenshots/gitAdd.jpeg)" alt="Descripción"/>
-  <img src="./screenshots/gitCommit.jpeg)" alt="Descripción"/>
+  <img src="./screenshots/gitAdd.jpeg" alt="Descripción"/>
+  <img src="./screenshots/gitCommit.jpeg" alt="Descripción"/>
 </p>
 - Se implementó git push y git pull para sincronizar el repositorio local con el repositorio remoto, permitiendo subir los cambios realizados localmente (push) y obtener las actualizaciones realizadas por otros colaboradores (pull). Esto garantiza que el equipo trabaje siempre con la versión más reciente del código y evita conflictos durante el desarrollo colaborativo. 
   ```bash
