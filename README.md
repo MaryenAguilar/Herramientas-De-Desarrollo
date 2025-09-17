@@ -144,7 +144,7 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   git config --global user.name "Nombre"
   git config --global user.email "Correo"
 <p align="center">
-  <img src="![Evidencia Add](./screenshots/GitClone.jpeg)" alt="Descripción"/>
+  <img./screenshots/GitClone.jpeg)" alt="Descripción"/>
 </p>
 - Se implementó touch/mkdir para crear los archivos que contengan el LICENSE, .gitignore, README y la carpeta de screenshots. 
   ```bash
@@ -153,8 +153,8 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   touch README.MD
   mkdir "NombreCarpeta"
 <p align="center">
-  <img src="![Evidencia touch](./screenshots/Touch.jpeg)" alt="Descripción"/>
-  <img src="![Evidencia mkdir](./screenshots/MkDir.jpeg)" alt="Descripción"/>
+  <img s./screenshots/Touch.jpeg)" alt="Descripción"/>
+  <img s./screenshots/MkDir.jpeg)" alt="Descripción"/>
 </p>
 - Se usó el comando add para seleccionar los cambios realizados y mandarlos a Stage, para posteriormente realizar un commit. También, podemos modificar los commits realizados o visualizar todo el listado de commits previos. Finalmente, usamos status para mostrar el estado del repositorio: archivos modificados, en Stage y sin seguimiento.
   ```bash
@@ -164,16 +164,16 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   git log --oneline
   git status
 <p align="center">
-  <img src="![Evidencia Add](./screenshots/gitAdd.jpeg)" alt="Descripción"/>
-  <img src="![Evidencia Commit](./screenshots/gitCommit.jpeg)" alt="Descripción"/>
+  <img./screenshots/gitAdd.jpeg)" alt="Descripción"/>
+  <img sr./screenshots/gitCommit.jpeg)" alt="Descripción"/>
 </p>
 - Se implementó git push y git pull para sincronizar el repositorio local con el repositorio remoto, permitiendo subir los cambios realizados localmente (push) y obtener las actualizaciones realizadas por otros colaboradores (pull). Esto garantiza que el equipo trabaje siempre con la versión más reciente del código y evita conflictos durante el desarrollo colaborativo. 
   ```bash
   git push origin "Rama"
   git pull origin "Rama"
 <p align="center">
-  <img src="![Evidencia gitPush](./screenshots/gitPush.jpeg)" alt="Descripción"/>
-  <img src="![Evidencia gitPull](./screenshots/gitPull.jpeg)" alt="Descripción"/>
+  <img src="./screenshots/gitPush.jpeg" alt="Descripción"/>
+  <img src="./screenshots/gitPull.jpeg" alt="Descripción"/>
 </p>
 - En Git, una rama (branch) es una línea de desarrollo independiente dentro de un repositorio. Usando el comando branch se pueden crear ramas nuevas. Además, Con el comando switch se puede cambiar de una rama a otra fácilmente. También, utilizamos --no-merged para visualizar las ramas no unidas al main. Por ultimo, checkout -b seria otra opción para crear y cambiar a la rama nueva, evitando usar dos lineas como branch y switch. 
   ```bash
@@ -183,7 +183,7 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   git branch -d "Rama"
   git checkout -b "Rama"
 <p align="center">
-  <img src="![Evidencia RamaFuncionalidad](./screenshots/RamaFuncionalidad.jpeg)" alt="Descripción"/>
+  <img src="./screenshots/RamaFuncionalidad.jpeg" alt="Descripción"/>
 </p>
 
 - En Git, reflog guarda un registro de todos los movimientos en el repositorio, incluso los que no aparecen en el historial de commits, y sirve para recuperar cambios perdidos. Por otro lado, git merge se usa para combinar el trabajo de una rama con otra, uniendo sus cambios en una sola línea de desarrollo
@@ -191,17 +191,17 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   git reflog
   git merge "Rama"
 <p align="center">
-  <img src="![Evidencia Conflict1](./screenshots/Conflict1.jpeg)" alt="Descripción"/>
+  <img src="./screenshots/Conflict1.jpeg" alt="Descripción"/>
 </p>
 
 ### Pull Request/Merge Request:
 Un Pull Request es una solicitud que haces en plataformas como GitHub o GitLab para pedir que los cambios de tu rama se integren en otra (normalmente en main o develop).
 Un Merge Request es lo mismo que un Pull Request, pero con el nombre usado en GitLab. Utilizamos Pull Request para pedir un merge de los cambios realizados en una rama hacia el Main, todos los colaboradores pueden verificar y confirmar el Merge.
 <p align="center">
-  <img src="![Evidencia PullRequest](./screenshots/Request1.jpeg)" alt="Descripción"/>
-  <img src="![Evidencia PullRequest](./screenshots/Request2.jpeg)" alt="Descripción"/>  
-  <img src="![Evidencia PullRequest](./screenshots/Request3.jpeg)" alt="Descripción"/>
-  <img src="![Evidencia PullRequest](./screenshots/Request4.jpeg)" alt="Descripción"/>
+  <img src="./screenshots/Request1.jpeg" alt="Descripción"/>
+  <img src="./screenshots/Request2.jpeg" alt="Descripción"/>  
+  <img src="./screenshots/Request3.jpeg" alt="Descripción"/>
+  <img src="./screenshots/Request4.jpeg" alt="Descripción"/>
 </p>
 
 ### Resolución de problemas: 
@@ -218,21 +218,21 @@ Solución:
 para confirmar la resolución.
 De esta forma, el repositorio quedó actualizado y sin conflictos, manteniendo una sola versión consolidada del README.md.
 <p align="center">
-  <img src="![Evidencia Conflict2](./screenshots/Conflict2.jpeg)" alt="Descripción"/>
-  <img src="![Evidencia Conflict3](./screenshots/Conflict3.jpeg)" alt="Descripción"/>  
+  <img src="./screenshots/Conflict2.jpeg" alt="Descripción"/>
+  <img src="./screenshots/Conflict3.jpeg" alt="Descripción"/>  
 </p>
 
 ### Historial de puntos de control: 
 En Git, los puntos de control o checkpoints son todos los commits realizados hasta el momento.
 <p align="center">
-  <img src="![Evidencia PuntosDeControl](./screenshots/PuntosDeControl.jpeg)" alt="Descripción"/>
+  <img src="./screenshots/PuntosDeControl.jpeg" alt="Descripción"/>
 </p>
 
 ### Historial de HEAD:
 En Git, la cabecera o HEAD es un puntero especial que indica en qué commit estás trabajando actualmente.
 
 <p align="center">
-  <img src="![Evidencia Cabeceras](./screenshots/Cabeceras.jpeg)" alt="Descripción"/>
+  <img src="./screenshots/Cabeceras.jpeg" alt="Descripción"/>
 </p>
 
 ### 🖼️ Capturas de Pantalla
