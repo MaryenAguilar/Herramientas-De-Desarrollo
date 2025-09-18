@@ -1,34 +1,31 @@
 # 🛍️ Joyería Online - E-commerce  
 
- **Joyeria Marly** - El proyecto de desarrollo de una aplicación web para Marly Handmade Jewelry nace como respuesta a la necesidad de modernizar y optimizar los procesos internos y externos de la empresa. Esta iniciativa busca no solo mejorar la gestión de ventas y el control administrativo, sino también elevar la calidad de la atención al cliente, brindando una experiencia más ágil, accesible y personalizada.
+ **Joyeria Marly** - Nuestro proyecto consiste en el desarrollo de una app web para Marly Handmade Jewelry, con el objetivo de modernizar la gestión de ventas y administración, además de mejorar la experiencia del cliente. 
+Esta plataforma permitirá optimizar procesos, que ayudará a la joyería a crecer en el mundo digital y llegar a más personas
 
-En un entorno en el que el comercio electrónico ha adquirido un rol protagónico, resulta indispensable que los negocios se adapten a las nuevas dinámicas del mercado digital. La implementación de esta plataforma representa una estrategia clave para competir en un mercado cada vez más globalizado, dinámico y exigente, donde los consumidores valoran la rapidez, eficiencia y facilidad de acceso a productos y servicios.
-
-De esta manera, la aplicación web no solo se convierte en una herramienta tecnológica, sino en un motor de transformación digital que permitirá a Joyería Marly fortalecer su presencia en línea, ampliar su alcance comercial y consolidar relaciones más sólidas con sus clientes actuales y potenciales.
 
 ### Requerimientos funcionales
- - El aplicativo web debe permitir al usuario poder registrarse y logearse
- - El aplicativo web debe permitir al usuario visualizar el catalogo de productos 
- - El aplicativo web debe permitir al usuario realizar una compra
- - El aplicativo web debe permitir al usuario descargar la boleta de su compra
- - El aplicativo web debe permitir al usuario visualizar los términos y condiciones
- - El aplicativo web debe permitir al usuario realizar un reclamo
- - El aplicativo web debe permitir al usuario tener acceso al carrito de compras
- - El aplicativo web debe permitir al administrador eliminar productos 
- - El aplicativo web debe permitir al administrador editar productos
- - El aplicativo web debe permitir al administrador agregar productos
- - El aplicativo web debe permitir al administrador eliminar clientes
- - El aplicativo web debe permitir al administrador editar clientes
- - El aplicativo web debe permitir al administrador editar estado del reclamo
- - El aplicativo web debe permitir al administrador Visualizar listado de clientes
- - El aplicativo web debe permitir al administrador Visualizar listado de productos
- - El aplicativo web debe permitir al administrador Visualizar listado de reclamos
+El aplicativo web debe permitir al usuario 
+-	poder registrarse e ingresar a su cuenta
+-	visualizar el catálogo de productos
+-	visualizar los términos y condiciones
+-	realizar un reclamo
+-	tener acceso al carrito de compras
+-	realizar una compra
+-	descargar la boleta de su compra
+El aplicativo web debe permitir al administrador 
+-	eliminar/agregar/editar productos
+-	eliminar/editar clientes
+-	editar estado del reclamo
+-	Visualizar listado de clientes/productos/compras/reclamos
+
  ### Requerimientos no funcionales
- - Usabilidad: La plataforma debe ser intuitiva y fácil de usar incluso para clientes no familiarizados con compras online.
- - Compatibilidad: Diseño responsive, debe adaptarse a computadoras, tabletas y móviles.
- - Seguridad: Protección de datos personales, cifrado de contraseñas y seguridad en transacciones.
- - Rendimiento: Buen rendimiento, carga rápida de páginas, especialmente en catálogo y carrito.
- - Escalabilidad: Posibilidad de integrar en el futuro pasarelas de pago, envío internacional o tracking de pedidos.
+-	Usabilidad → que sea intuitiva y fácil de usar.
+-	Compatibilidad → adaptable a distintos dispositivos.
+-	Seguridad → protección de datos y transacciones.
+-	Rendimiento → páginas que carguen rápido.
+-	Escalabilidad → lista para crecer con nuevas funciones.
+
 ---
 
 ## 🚀 Tecnologías utilizadas  
