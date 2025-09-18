@@ -146,6 +146,7 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
 <p align="center">
   <img src="./screenshots/GitClone.jpeg" alt="Descripción"/>
 </p>
+
 - Se implementó touch/mkdir para crear los archivos que contengan el LICENSE, .gitignore, README y la carpeta de screenshots. 
   ```bash
   touch .gitignore
@@ -156,6 +157,7 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   <img src="./screenshots/Touch.jpeg" alt="Descripción"/>
   <img src="./screenshots/MkDir.jpeg" alt="Descripción"/>
 </p>
+
 - Se usó el comando add para seleccionar los cambios realizados y mandarlos a Stage, para posteriormente realizar un commit. También, podemos modificar los commits realizados o visualizar todo el listado de commits previos. Finalmente, usamos status para mostrar el estado del repositorio: archivos modificados, en Stage y sin seguimiento.
   ```bash
   git add .
@@ -167,6 +169,7 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   <img src="./screenshots/gitAdd.jpeg" alt="Descripción"/>
   <img src="./screenshots/gitCommit.jpeg" alt="Descripción"/>
 </p>
+
 - Se implementó git push y git pull para sincronizar el repositorio local con el repositorio remoto, permitiendo subir los cambios realizados localmente (push) y obtener las actualizaciones realizadas por otros colaboradores (pull). Esto garantiza que el equipo trabaje siempre con la versión más reciente del código y evita conflictos durante el desarrollo colaborativo. 
   ```bash
   git push origin "Rama"
@@ -175,6 +178,7 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   <img src="./screenshots/gitPush.jpeg" alt="Descripción"/>
   <img src="./screenshots/gitPull.jpeg" alt="Descripción"/>
 </p>
+
 - En Git, una rama (branch) es una línea de desarrollo independiente dentro de un repositorio. Usando el comando branch se pueden crear ramas nuevas. Además, Con el comando switch se puede cambiar de una rama a otra fácilmente. También, utilizamos --no-merged para visualizar las ramas no unidas al main. Por ultimo, checkout -b seria otra opción para crear y cambiar a la rama nueva, evitando usar dos lineas como branch y switch. 
   ```bash
   git branch "Rama"
