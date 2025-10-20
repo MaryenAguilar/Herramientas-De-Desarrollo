@@ -13,7 +13,7 @@ El aplicativo web debe permitir al usuario
 -	tener acceso al carrito de compras
 -	realizar una compra
 -	descargar la boleta de su compra
-El aplicativo web debe permitir al administrador 
+- El aplicativo web debe permitir al administrador 
 -	eliminar/agregar/editar productos
 -	eliminar/editar clientes
 -	editar estado del reclamo
@@ -235,6 +235,49 @@ En Git, la cabecera o HEAD es un puntero especial que indica en qué commit est�
 <p align="center">
   <img src="./screenshots/Cabeceras.jpeg" alt="Descripción"/>
 </p>
+
+### Creación y configuración de Forks:
+
+
+
+![Fork](./screenshots/evidencia1.png)
+
+### Creación de Issues, Milestones y Tableros de proyecto:
+
+Usamos los Issues para:
+- Errores o bugs
+- Nuevas funcionalidades
+- Mejoras o tareas pendientes
+
+Cada Issue puede tener: 
+- Un título y descripción
+- Etiquetas (labels)
+- Asignados (personas responsables)
+- Comentarios y referencias a commits o pull requests
+
+![Issue](./screenshots/Issue.jpeg)
+
+Un Milestone agrupa varios Issues relacionados bajo un objetivo o entrega concreta.
+Sirve para organizar el trabajo por versiones, fases o entregas.
+
+Ejemplos:
+Milestone Release v1.0”
+
+Issue #2: Crear Repositorios
+
+Issue #3: Crear Mappers
+
+Issue #4: Crear Controlador
+
+![Milestones](./screenshots/Milestones.jpeg)
+![Milestones](./screenshots/Milestones2.jpeg)
+
+Un tablero de proyectos sirver para organizar Issues y Pull Requests en columnas (por ejemplo, “Por hacer”, “En progreso”, “Hecho”).
+Ayuda a planificar, priorizar y hacer seguimiento del flujo de trabajo.
+
+![Tableros](./screenshots/Tableros.jpeg)
+![Tableros](./screenshots/Tableros2.jpeg)
+
 
 ### 🖼️ Capturas de Pantalla
 ---
