@@ -1,8 +1,12 @@
 # 📜 CHANGELOG
 
 Todas las modificaciones notables de este proyecto se documentarán en este archivo.  
-Este formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/)  
-y el proyecto sigue [Semantic Versioning](https://semver.org/lang/es/).
+
+> 🧠 **Frontend:** React (Node.js + npm)  
+> 🧠 **Backend:** Spring Boot (Java)  
+> 🪪 **Licencia:** Privada - Uso Propietario  
+> 🛠️ **Convenciones:** definidas en `CONTRIBUTING.md`  
+> 📅 **Inicio del proyecto:** Setiembre 2025
 
 > 🧠 **Frontend:** React (Node.js + npm)  
 > 🧠 **Backend:** Spring Boot (Java)  
@@ -17,12 +21,12 @@ y el proyecto sigue [Semantic Versioning](https://semver.org/lang/es/).
 ### 🚧 En progreso
 
 - Integración con API externa para catálogo de productos.
-- Soporte para múltiples idiomas (internacionalización).
 - Módulo de notificaciones y alertas para usuarios.
+- Agregar funcionalidad de compras para la aplicación
 
 ---
 
-## [1.2.0] - 2025-11-05
+## [1.0.0] - 2025-10-20
 
 ### 🔒 Seguridad
 
@@ -30,9 +34,6 @@ y el proyecto sigue [Semantic Versioning](https://semver.org/lang/es/).
 - Actualización de dependencias vulnerables en frontend y backend.
 - Revisión de políticas de acceso y autenticación.
 
----
-
-## [1.1.0] - 2025-10-25
 
 ### ✨ Añadido
 
@@ -42,7 +43,7 @@ y el proyecto sigue [Semantic Versioning](https://semver.org/lang/es/).
 
 ### 🐛 Corregido
 
-- Error al cargar recursos estáticos en producción.
+- Agregar al .gitignore el directorio del proyecto NODE.JS e IDEA.
 - Corrección de rutas en el enrutador principal.
 - Problemas de sincronización con upstream y forks.
 
@@ -54,39 +55,6 @@ y el proyecto sigue [Semantic Versioning](https://semver.org/lang/es/).
 
 ---
 
-## [1.0.0] - 2025-10-19
-
-### 🚀 Inicial
-
-- Versión inicial del proyecto.
-- Estructura base creada para Frontend (React) y Backend (Spring Boot).
-- Configuración del entorno de desarrollo y dependencias principales.
-- Implementación inicial del sistema de autenticación.
-- Creación de entidades base: usuarios, productos y pedidos.
-- Archivos base agregados:
-  - `README.md`
-  - `LICENSE`
-  - `CONTRIBUTING.md`
-  - `CHANGELOG.md` (este archivo).
-
-### 🛠️ Cambiado
-
-- Ajuste de convenciones para nombres de ramas (`feat/`, `fix/`, `docs/`, `refactor/`).
-- Configuración de rutas iniciales en frontend y backend.
-- Estructura de carpetas para facilitar el trabajo colaborativo.
-
-### 🐞 Corregido
-
-- Problemas menores en configuración de frontend.
-- Error en sincronización con el repositorio principal.
-
-### 🗑️ Eliminado
-
-- Archivos temporales innecesarios del entorno de desarrollo.
-- Dependencias duplicadas.
-
----
-
 ## 📌 Convenciones de Versionado y Etiquetas
 
 ### 🧭 Versionado Semántico
@@ -94,23 +62,7 @@ y el proyecto sigue [Semantic Versioning](https://semver.org/lang/es/).
 - **MAJOR (X)** → cambios incompatibles con versiones anteriores.
 - **MINOR (Y)** → nuevas funcionalidades compatibles.
 - **PATCH (Z)** → correcciones y mejoras menores.
-  > Formato: `X.Y.Z` (ej. `1.0.0`)
-
----
-
-### 🏷️ Tag Rules
-
-Para mantener el repositorio organizado y facilitar la gestión de _Issues_ y _Pull Requests_:
-
-- Usa etiquetas **claras y descriptivas** que reflejen el propósito del Issue o PR.
-- Algunas etiquetas comunes incluyen:
-  - `bug` → errores o fallos.
-  - `enhancement` → mejoras o nuevas funcionalidades.
-  - `documentation` → temas relacionados con la documentación.
-  - `question` → dudas o consultas.
-- Añade etiquetas relacionadas con el área afectada (`backend`, `frontend`, etc.) cuando sea posible.
-- Evita el uso excesivo de etiquetas; usa solo las más relevantes.
-- Los colaboradores con permisos pueden crear nuevas etiquetas, manteniendo coherencia con las existentes.
+  > Formato: v`X.Y.Z` (ej. `1.0.0`)
 
 ---
 
