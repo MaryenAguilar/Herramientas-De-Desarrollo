@@ -8,6 +8,12 @@ Todas las modificaciones notables de este proyecto se documentarán en este arch
 > 🛠️ **Convenciones:** definidas en `CONTRIBUTING.md`  
 > 📅 **Inicio del proyecto:** Setiembre 2025
 
+> 🧠 **Frontend:** React (Node.js + npm)  
+> 🧠 **Backend:** Spring Boot (Java)  
+> 🪪 **Licencia:** Privada - Uso Propietario  
+> 🛠️ **Convenciones:** definidas en `CONTRIBUTING.md`  
+> 📅 **Inicio del proyecto:** Octubre 2025
+
 ---
 
 ## [Unreleased]
@@ -39,6 +45,7 @@ Todas las modificaciones notables de este proyecto se documentarán en este arch
 
 - Agregar al .gitignore el directorio del proyecto NODE.JS e IDEA.
 - Corrección de rutas en el enrutador principal.
+- Problemas de sincronización con upstream y forks.
 
 ### 🧹 Mejorado
 
