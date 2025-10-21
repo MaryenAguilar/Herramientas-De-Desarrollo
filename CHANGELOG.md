@@ -1,6 +1,6 @@
 # 📜 CHANGELOG
 
-Todas las modificaciones notables de este proyecto se documentarán en este archivo.
+Todas las modificaciones notables de este proyecto se documentarán en este archivo.  
 
 > 🧠 **Frontend:** React (Node.js + npm)  
 > 🧠 **Backend:** Spring Boot (Java)  
@@ -27,6 +27,7 @@ Todas las modificaciones notables de este proyecto se documentarán en este arch
 - Implementación de validaciones avanzadas en formularios.
 - Actualización de dependencias vulnerables en frontend y backend.
 - Revisión de políticas de acceso y autenticación.
+
 
 ### ✨ Añadido
 
