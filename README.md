@@ -195,16 +195,6 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   <img src="./screenshots/Conflict1.jpeg" alt="Descripción"/>
 </p>
 
-- Con un fork, se crea una copia completa del repositorio original en tu cuenta personal de GitHub. Esto permite hacer modificaciones sin afectar directamente el proyecto principal. Una vez que se hayan hecho los cambios y probado en tu fork, se puede crear un Pull Request para proponer esos cambios al repositorio original.
-  ```bash
-  1. Entra al repositorio original en GitHub y haz clic en el botón "Fork"
-  2. Elige tu cuenta personal para alojar la copia del repositorio
-  3. Luego clona tu fork a tu máquina local con: 
-  git clone https://github.com/tuusuario/Herramientas-De-Desarrollo.git  
-<p align="center">
-  <img src="./screenshots/Fork.png" alt="Descripción"/>
-</p>
-
 - En Git, un tag es una etiqueta que se utiliza para marcar versiones específicas del proyecto (por ejemplo: una versión estable o una actualización importante). Sirven para identificar puntos clave en el historial (como v1.0.0, v1.1.0, etc.) Los tags son muy útiles al momento de publicar versiones o mantener un registro del progreso del desarrollo.
   ```bash
   git tag -a v1.0.0 -m "Primera versión estable del proyecto"
@@ -257,9 +247,67 @@ En Git, la cabecera o HEAD es un puntero especial que indica en qué commit est�
 
 ### Creación y configuración de Forks:
 
+#### >> ¿Para que sirve el Fork?
+Con un fork, se crea una copia completa del repositorio original en tu cuenta personal de GitHub. 
+Esto permite hacer modificaciones sin afectar directamente el proyecto principal. 
+Una vez que se hayan hecho los cambios y probado en tu fork, se puede crear un Pull Request para proponer esos cambios al repositorio original.
+  
+#### >> ¿Cómo se crea?
+  1. Entra al repositorio original en GitHub y haz clic en el botón "Fork"
+<p align="center">
+  <img src="./screenshots/BtnFork.png" alt="Descripción"/>
+</p>
+  
+  2. Elige tu cuenta personal para alojar la copia del repositorio
+<p align="center">
+  <img src="./screenshots/CreateFork.png" alt="Descripción"/>
+</p>
 
+  3. Luego clona tu fork a tu máquina local con: 
+  ```bash
+  git clone https://github.com/tuusuario/Herramientas-De-Desarrollo.git  
+  ```
 
-![Fork](./screenshots/evidencia1.png)
+#### >> Visualización de Forks del Trabajo
+<p align="center">
+  <img src="./screenshots/Fork.png" alt="Descripción"/>
+</p>
+  
+#### >> ¿Para que sirve el Upstream?
+Sirve para sincronizar tu fork con el proyecto principal, de modo que tengas los últimos commits o actualizaciones.
+Así puedes contribuir con la versión más reciente y evitar conflictos.
+
+#### >> ¿Cómo funciona el Upstream en la práctica?
+
+1. Ver tus repositorios remotos:
+```bash
+git remote -v
+```
+Te mostrará algo como:
+```bash
+origin    https://github.com/tuusuario/mi-fork.git (fetch)
+upstream  https://github.com/MaryenAguilar/Herramientas-De-Desarrollo.git (fetch)
+```
+
+2. Obtener los cambios del original:
+```bash
+git fetch upstream
+```
+
+Esto descarga los commits nuevos del repositorio principal (no los mezcla todavía).
+
+3. Actualizar tu rama:
+```bash
+git checkout develop
+git merge upstream/develop
+```
+Ahora tu rama local develop tiene los últimos cambios del proyecto original.
+
+4. Subirlos a tu fork de tu cuenta:
+```bash
+git push origin develop
+```
+
 
 ### Creación de Issues, Milestones y Tableros de proyecto:
 
