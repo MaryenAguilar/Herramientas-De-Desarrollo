@@ -1,6 +1,6 @@
 # 📜 CHANGELOG
 
-Todas las modificaciones notables de este proyecto se documentarán en este archivo.  
+Todas las modificaciones notables de este proyecto se documentarán en este archivo.
 
 > 🧠 **Frontend:** React (Node.js + npm)  
 > 🧠 **Backend:** Spring Boot (Java)  
@@ -17,6 +17,7 @@ Todas las modificaciones notables de este proyecto se documentarán en este arch
 - Integración con API externa para catálogo de productos.
 - Módulo de notificaciones y alertas para usuarios.
 - Agregar funcionalidad de compras para la aplicación
+- Permitir que los usuarios marquen productos como favoritos y los guarden en su cuenta para verlos o comprarlos más adelante.
 
 ---
 
@@ -27,7 +28,6 @@ Todas las modificaciones notables de este proyecto se documentarán en este arch
 - Implementación de validaciones avanzadas en formularios.
 - Actualización de dependencias vulnerables en frontend y backend.
 - Revisión de políticas de acceso y autenticación.
-
 
 ### ✨ Añadido
 
