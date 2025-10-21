@@ -214,6 +214,8 @@ Un Merge Request es lo mismo que un Pull Request, pero con el nombre usado en Gi
   <img src="./screenshots/Request4.jpeg" alt="Descripción"/>
 </p>
 
+ ---
+
 ### Resolución de problemas: 
 Durante el desarrollo, surgió un conflicto de merge porque dos ramas diferentes habían modificado el archivo README.md en las mismas secciones.
 - En una rama, se habían agregado instrucciones con la ruta del repositorio MaryenAguilar/Herramientas-De-Desarrollo.
@@ -232,6 +234,8 @@ De esta forma, el repositorio quedó actualizado y sin conflictos, manteniendo u
   <img src="./screenshots/Conflict3.jpeg" alt="Descripción"/>  
 </p>
 
+---
+
 ### Historial de puntos de control: 
 En Git, los puntos de control o checkpoints son todos los commits realizados hasta el momento.
 <p align="center">
@@ -244,6 +248,8 @@ En Git, la cabecera o HEAD es un puntero especial que indica en qué commit est�
 <p align="center">
   <img src="./screenshots/Cabeceras.jpeg" alt="Descripción"/>
 </p>
+
+---
 
 ### Creación y configuración de Forks:
 
@@ -308,6 +314,7 @@ Ahora tu rama local develop tiene los últimos cambios del proyecto original.
 git push origin develop
 ```
 
+---
 
 ### Creación de Issues, Milestones y Tableros de proyecto:
 
@@ -345,9 +352,14 @@ Ayuda a planificar, priorizar y hacer seguimiento del flujo de trabajo.
 ![Tableros](./screenshots/Tableros.jpeg)
 ![Tableros](./screenshots/Tableros2.jpeg)
 
+---
+
+### Estructura del trabajo
+![Estructura](./screenshots/EstructuraProy.png)
+
+---
 
 ### 🖼️ Capturas de Pantalla
----
 
 ### 🏠 Pantalla Principal
 ![Index](./screenshots/paginaprincipal.png)
