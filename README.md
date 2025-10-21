@@ -195,6 +195,25 @@ Rama fix: Se usa cuando detectas un bug o error en el código existente y necesi
   <img src="./screenshots/Conflict1.jpeg" alt="Descripción"/>
 </p>
 
+- Con un fork, se crea una copia completa del repositorio original en tu cuenta personal de GitHub. Esto permite hacer modificaciones sin afectar directamente el proyecto principal. Una vez que se hayan hecho los cambios y probado en tu fork, se puede crear un Pull Request para proponer esos cambios al repositorio original.
+  ```bash
+  1. Entra al repositorio original en GitHub y haz clic en el botón "Fork"
+  2. Elige tu cuenta personal para alojar la copia del repositorio
+  3. Luego clona tu fork a tu máquina local con: 
+  git clone https://github.com/tuusuario/Herramientas-De-Desarrollo.git  
+<p align="center">
+  <img src="./screenshots/Fork.png" alt="Descripción"/>
+</p>
+
+- En Git, un tag es una etiqueta que se utiliza para marcar versiones específicas del proyecto (por ejemplo: una versión estable o una actualización importante). Sirven para identificar puntos clave en el historial (como v1.0.0, v1.1.0, etc.) Los tags son muy útiles al momento de publicar versiones o mantener un registro del progreso del desarrollo.
+  ```bash
+  git tag -a v1.0.0 -m "Primera versión estable del proyecto"
+  git push origin v1.0.0
+  git tag
+<p align="center">
+  <img src="./screenshots/Tags.png" alt="Descripción"/>
+</p>
+
 ### Pull Request/Merge Request:
 Un Pull Request es una solicitud que haces en plataformas como GitHub o GitLab para pedir que los cambios de tu rama se integren en otra (normalmente en main o develop).
 Un Merge Request es lo mismo que un Pull Request, pero con el nombre usado en GitLab. Utilizamos Pull Request para pedir un merge de los cambios realizados en una rama hacia el Main, todos los colaboradores pueden verificar y confirmar el Merge.
