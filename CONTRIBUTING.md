@@ -88,7 +88,20 @@ Cada commit debe ser **claro, conciso y estructurado**.
 - feature/*: para desarrollar nuevas funcionalidades.
 - fix/*: para resolver errores puntuales.
 - No hagas commits directos al main.
+
 #### 🏷️ Tag Rules
+Para mantener el repositorio organizado y facilitar la gestión de Issues y Pull Requests, seguimos estas reglas para el uso de etiquetas (tags):
+
+- Usa etiquetas claras y descriptivas que reflejen el propósito del Issue o PR.
+- Algunas etiquetas comunes incluyen:
+  - `bug` para errores o fallos.
+  - `enhancement` para mejoras o nuevas funcionalidades.
+  - `documentation` para temas relacionados con la documentación.
+  - `question` para dudas o consultas.
+- Añade etiquetas relacionadas con el área afectada (backend, frontend, etc.) cuando sea posible.
+- Evita el uso excesivo de etiquetas; elige las más relevantes.
+- Los colaboradores con permisos pueden crear nuevas etiquetas si es necesario, pero siempre buscando coherencia con las existentes.
+
 
 ### 🧠 Gestión de Issues, Milestones y Tableros
 #### 🐞 Issues
