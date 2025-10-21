@@ -17,7 +17,6 @@ Todas las modificaciones notables de este proyecto se documentarán en este arch
 - Integración con API externa para catálogo de productos.
 - Módulo de notificaciones y alertas para usuarios.
 - Agregar funcionalidad de compras para la aplicación
-- Permitir que los usuarios marquen productos como favoritos y los guarden en su cuenta para verlos o comprarlos más adelante.
 
 ---
 
