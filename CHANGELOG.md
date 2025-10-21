@@ -8,12 +8,6 @@ Todas las modificaciones notables de este proyecto se documentarán en este arch
 > 🛠️ **Convenciones:** definidas en `CONTRIBUTING.md`  
 > 📅 **Inicio del proyecto:** Setiembre 2025
 
-> 🧠 **Frontend:** React (Node.js + npm)  
-> 🧠 **Backend:** Spring Boot (Java)  
-> 🪪 **Licencia:** Privada - Uso Propietario  
-> 🛠️ **Convenciones:** definidas en `CONTRIBUTING.md`  
-> 📅 **Inicio del proyecto:** Octubre 2025
-
 ---
 
 ## [Unreleased]
