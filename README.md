@@ -365,8 +365,12 @@ Ayuda a planificar, priorizar y hacer seguimiento del flujo de trabajo.
 ![Index](./screenshots/paginaprincipal.png)
 ---
 
-### Pagina Login
-![Login](./screenshots/paginalogin.png)
+### Página Login
+![Login](./screenshots/paginalogin.jpeg)
+---
+
+### Página Registro
+![Login](./screenshots/paginaregistro.jpeg)
 ---
 
 ### 🛍️ Lista de Productos
